@@ -1,0 +1,10 @@
+EF Core Migrations commands (run in Package Manager Console or dotnet CLI):
+
+# Using dotnet-ef (recommended):
+dotnet tool install --global dotnet-ef
+dotnet ef migrations add InitialCreate
+dotnet ef database update
+
+# Or using Package Manager Console in Visual Studio:
+Add-Migration InitialCreate
+Update-Database
