@@ -13,7 +13,6 @@ El proyecto está construido siguiendo una arquitectura por capas utilizando Con
 * ASP.NET Core 10
 * Entity Framework Core 10
 * SQL Server
-* Swagger / OpenAPI
 * C#
 
 ## Arquitectura
@@ -121,7 +120,7 @@ dotnet run
 * Autenticación y autorización.
 * Validaciones avanzadas.
 * Paginación y filtros.
-* multi medicos
+* Relacion medicos y paciente
 
 
 ## Autor
